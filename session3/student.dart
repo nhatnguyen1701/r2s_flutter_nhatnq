@@ -12,4 +12,15 @@ class Student {
   num average() {
     return total() / 3;
   }
+
+  Student() {}
+  Student.initial(this.id, this.name, this.mark1, this.mark2, this.mark3);
+
+// Student(String id, String name, num mark1, num mark2, num mark3) {
+  //   this.id = id;
+  //   this.name = name;
+  //   this.mark1 = mark1;
+  //   this.mark2 = mark2;
+  //   this.mark3 = mark3;
+  // }
 }

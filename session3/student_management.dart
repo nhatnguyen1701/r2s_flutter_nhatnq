@@ -60,7 +60,8 @@ void main() {
     choice = int.parse(stdin.readLineSync()!);
     switch (choice) {
       case 1:
-        var student = Student();
+        var student = Student.initial("1", "1", 1, 1, 1);
+
         inputInfo(student);
         students.add(student);
         break;
